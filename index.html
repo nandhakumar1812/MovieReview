@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="movieReviewContainer" class="container">
+        <center><h1>Movie Review</h1></center>
+
+        <div>
+            <form>
+                <div class="input-container">
+                    <p>MOVIE TITLE</p>
+                    <input type="text" id="movieNameInput" placeholder="Enter a Movie Name">
+                    <p>YOUR REVIEW</p>
+                    <textarea id="descriptionInput" rows="4" placeholder="Please share your review..."></textarea>
+                    <button id="submitButton" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <center>
+            <div id="movieDataContainer" class="movie-container">
+                <div class="movie-slide">
+                    <h3>Movie Name : Star</h3>
+                    <p>Review : Very Intersting movie everyone should watch</p>
+                </div>
+            </div>
+        </center>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
